@@ -1,0 +1,36 @@
+#comments{
+    margin: -2rem 2rem 0;
+    border-radius: .5rem;
+    box-shadow: 0rem 0rem .8rem $company-700;
+}
+
+.Author{
+    background-color: #F8F8F8;
+    border: .01rem solid #E7E7E7;   
+}
+
+.titleComment{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -1.3rem;
+
+    p{
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        color: $company-100;
+        font-size: 2rem;
+    }
+
+    p#autor{
+        color: $company-100;
+    }
+}

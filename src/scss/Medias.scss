@@ -1,0 +1,86 @@
+@media (max-width: 1260px) {
+    header{
+        flex-flow: column nowrap;
+        text-align: center;
+
+        button,hgroup,img{
+            display: none;
+            position: relative;
+        }
+    }
+
+    section#BoxSection{
+        .TextTitle{
+            display: flex;
+            flex-flow: column nowrap;
+            text-align: center;
+            align-items: center;
+            white-space: inherit;
+            
+            h1.titulo{
+                margin-bottom: 1rem;
+            }
+
+            .itemsButtons{
+                align-items: center;
+                justify-content: center;
+                margin-left: 1rem;
+            }
+            
+        }
+
+        figcaption{
+            h2{
+                font-size: 2rem;
+            }
+
+            div{
+                margin-top: 17rem;
+
+                h3{
+                    font-size: 1.5rem;
+                }
+            }
+
+            img#man{
+                width: 6rem;
+            }
+        }
+
+        .ImageArticle{
+            flex-flow: column nowrap;
+
+            section#Article{
+                max-width: 100%;
+                margin-left: -.5rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1100px) {
+    header{
+        hgroup.titles{
+            margin-left: 4rem;
+        }
+    }
+
+    figcaption{
+        h2{
+            font-size: 2rem;
+        }
+
+        div{
+            margin-top: 17rem;
+
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+
+        img#man{
+            width: 6rem;
+        }
+    }
+}

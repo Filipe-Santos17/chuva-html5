@@ -1,0 +1,51 @@
+/*=====Resume=====*/
+section#Resume{
+    position: relative;
+    margin-left: 2rem;
+    background-color: #FFF;
+    margin-top: 2rem;
+    border-width: .8rem;
+    max-width: 67rem;
+    border: .1rem solid #ECECEC;
+    border-radius: .3rem 0rem;
+    letter-spacing: 0.02em;
+
+    .titulo{
+        background-color: $company-300;    
+        padding: .5rem 1rem;
+        border-radius: .4rem;
+
+        h4{
+            font: {
+                weight: 500;
+                size: 1.5rem;
+            }
+            line-height: 2.5rem;
+            color: #4e4e4e;
+        }
+    }
+
+    p{
+        padding: 1.2rem;
+        font-size: 1rem;
+        color: #5C5C5C;
+    }
+
+    p.text{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    button{
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: $company-100;
+        font-weight: 700;//bold
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

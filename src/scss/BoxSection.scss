@@ -1,0 +1,188 @@
+/*=====Box-Section=====*/
+section#BoxSection{
+    padding-left: 2rem;
+    margin-top: 1rem;
+
+    @media (min-width:1160px) {
+        flex-flow: row nowrap;
+    }
+
+    @media( min-width: 640px){
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
+.TextTitle{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: left;
+    align-items: center;
+    white-space: nowrap;
+
+    h1.titulo{
+        color: $company-100;
+        font: {
+            weight: 900;
+            size: 1.4rem;
+        }
+    }
+
+    section.buttons{
+        justify-content: center;
+        align-items: center;
+        padding-left: 3rem;
+
+        .itemsButtons{
+            display: flex;
+            flex-flow: row nowrap;
+            margin-left: 1.3rem;
+        } 
+        
+        button{
+            display: flex;
+            align-items: center;
+            font: {
+                size: 1rem;
+                family: $Roboto;
+            }
+            padding: .4rem .8rem;
+            margin: .8rem .5rem;
+            outline: none;
+            border: none;
+            font-weight: 700;
+            border-radius: .3rem;
+            background-color: $company-100;
+            color: #FFF;
+        }
+
+        h2{
+            text: {
+                align: center;
+                transform: uppercase;
+            }
+            padding-left: .8rem;
+            color: $company-100;
+            letter-spacing: .05rem;
+            font-size: .9rem;
+        }
+    }
+}
+/*=====ImageArticle=====*/
+.ImageArticle{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*=====Image=====*/
+figure{
+    position: relative;
+    min-width: 60%;
+    margin-top: 1.6rem;
+    font-family: $Roboto;
+    background-color: #8D350680;
+    border-radius: .3rem;
+
+    figcaption{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+
+        h2{
+            position: absolute;
+            font: {
+                weight: 700; //bold
+                size: 1.7rem;
+            }
+            padding: 2.4rem 2rem;
+            z-index: 15;
+        }
+
+        div{
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: {
+                top: 18rem;
+                left: 2rem;
+            }
+            align-items: center;
+            color: #FFF;
+
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    img#man{
+        width: 6rem;
+        border: {
+            radius: 50%;
+            color: $company-100;
+        }
+        position: relative;
+        padding: 2px;
+        z-index: 30;
+    }
+
+    img{
+        opacity: 40%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*=====Article=====*/
+section#Article{
+    border: 1px solid #ECECEC;
+    border-radius: .4rem;
+    margin: {
+        top: 1.6rem;
+        left: 2rem;
+    }
+    font-size: .8rem;
+    max-width: 23%;
+    color: #5C5C5C;
+
+    .titleBox{
+        background-color: $company-300;
+        padding: 1.2rem;
+        border-top-left-radius: .4rem;
+        border-top-right-radius: .5rem;
+        margin-bottom: .4rem;
+
+        h2{
+            font: {
+                weight: 500;
+                size: 1.4rem;
+            }
+            color: #4e4e4e;
+        }
+    }
+
+    hgroup{
+        margin-left: 1.2rem;
+    }
+
+    h3{
+        padding-left: 1.2rem;
+    }
+
+    ul{
+        padding-left: 1.2rem;
+        color: #5C5C5C;
+        font-weight: 400;
+    }
+
+    ul.universitys{
+        color: #6b7280;
+        opacity: .8;
+    }
+
+    span{
+        font-weight: 700;
+    }
+}

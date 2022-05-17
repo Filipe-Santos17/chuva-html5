@@ -1,0 +1,99 @@
+@media (max-width: 968px) {
+    section#sidebar{
+        display: none;
+        margin-left: 0;
+    }
+
+    #corpo{
+        margin: 0 2rem;
+    }
+
+    footer{
+        margin: 0 -2rem;
+    }
+
+    header{
+        flex-flow: column nowrap;
+        margin: 0;
+        align-items: start;
+        text-align: center;
+        min-width: auto;
+
+        button.burger{
+            display: flex;
+            cursor: pointer;
+            outline: none;
+            align-self: flex-end;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            position: absolute;
+            border-radius: 50%;
+            background-color: $company-100;
+            font-size: 1rem;
+        }
+
+        button{
+            display: none;
+        }
+
+    
+        hgroup,img{
+            display: none;
+            position: relative;
+        }
+    }
+
+    section#BoxSection{
+        .TextTitle{
+            display: flex;
+            flex-flow: column nowrap;
+            text-align: center;
+            align-items: center;
+            white-space: inherit;
+            
+            h1.titulo{
+                margin-bottom: 1rem;
+            }
+
+            .itemsButtons{
+                align-items: center;
+                justify-content: center;
+                margin-left: 1rem;
+            }
+            
+        }
+
+        
+        figcaption{
+            h2{
+                font-size: 1rem;
+            }
+
+            div{
+                margin-top: 9rem;
+
+                h3{
+                    font-size: .9rem;
+                }
+            }
+
+            img#man{
+                width: 4rem;
+            }
+        }
+
+        .ImageArticle{
+            flex-flow: column nowrap;
+
+            section#Article{
+                max-width: 100%;
+                margin-left: -.5rem;
+            }
+        }
+    }
+
+    Section#Resume{
+        margin-left: 1.6rem;
+        max-width: 52rem;
+    }
+}
